@@ -1,0 +1,20 @@
+export class DepositAccountModel {
+  AccountId: number = 0;
+  AccountNumber: string = '';
+  AccountNo: string = '';
+  AccountTypeCode: string = '';
+  AccountTypeName: string = '';
+  DCAccountNo: string = '';
+  UserId: number = 0;
+  RolePermissionId: string = '';
+  Balance: number = 0;
+  WithdrawableBalance: number = 0;
+  LedgerId: number = 0;
+  AccountNominee: string = '';
+  LastPaidDate: string = '';
+  MaturityDate: string = '';
+  IsDefaulter: boolean = false;
+  isSelected: boolean = false;
+  Amount: number = 0;
+  PlType: number = 0;
+}

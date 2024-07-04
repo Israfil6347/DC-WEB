@@ -1,0 +1,26 @@
+export class CollectionLedgerModel {
+  AccountNo: string = '';
+  AccountType: string = '';
+  LedgerId: number = 0;
+  Amount: number = 0;
+  AccountId: number = 0;
+  IsDefaulter: boolean = false;
+  IsSubLedger: boolean = false;
+  IsMultiplier: boolean = false;
+  IsNotEditable: boolean = false;
+  AccountTypeCode: string = '';
+  PlType: number = 0;
+  Sort: number = 0;
+  IsLps: boolean = false;
+  isSelected: boolean = false;
+  isStopEdit: boolean = false;
+  MinimumDeposit: number = 0;
+  LoanBalance: number = 0;
+  InterestRate: number = 0;
+  LastPaidDate: string = '';
+  ModuleCode: string = '';
+  LoanCollectionType: string = '';
+  IsRefundBased: boolean = false;
+  AccountFor?: string = '';
+  personalLedgerType?: number = 0;
+}

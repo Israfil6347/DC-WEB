@@ -1,0 +1,32 @@
+export class bKasCollectionLedgerStateModel {
+  AccountNo: string = '';
+  // AccountName: string = '';
+  AccountType: string = '';
+  personalLedgerType?: number = 0;
+  // PersonalLedgerId: number = 0;
+  LedgerId: number = 0;
+  Amount: number = 0;
+  // Balance: number = 0;
+  AccountId: number = 0;
+  // LoanAccountList: number = 0;
+  IsDefaulter: boolean = false;
+  IsSubLedger: boolean = false;
+  IsMultiplier: boolean = false;
+  IsNotEditable: boolean = false;
+  IsLps: boolean = false;
+  PlType: number = 0;
+  Sort: number = 0;
+  // MiscId: number = 0;
+  // ServiceId: number = 0;
+  LoanBalance: number = 0;
+  InterestRate: number = 0;
+  AccountTypeCode: string = '';
+  LastPaidDate: string = '';
+  ModuleCode: string = '';
+  LoanCollectionType: string = '';
+  AccountFor?: string = '';
+  MinimumDeposit: number = 0;
+  IsRefundBased: boolean = false;
+  isSelected: boolean = false;
+  isStopEdit: boolean = false;
+}
